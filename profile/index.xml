@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Profiles on Saksham Arora</title>
-    <link>http://example.org/profile/</link>
+    <link>http://sakshamarora1.github.io/profile/</link>
     <description>Recent content in Profiles on Saksham Arora</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>sakshamarora1001@gmail.com (Saksham Arora)</managingEditor>
     <webMaster>sakshamarora1001@gmail.com (Saksham Arora)</webMaster>
     
-	<atom:link href="http://example.org/profile/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://sakshamarora1.github.io/profile/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://example.org/profile/resume/</link>
+      <link>http://sakshamarora1.github.io/profile/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>sakshamarora1001@gmail.com (Saksham Arora)</author>
-      <guid>http://example.org/profile/resume/</guid>
+      <guid>http://sakshamarora1.github.io/profile/resume/</guid>
       <description></description>
     </item>
     

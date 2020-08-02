@@ -1,17 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Saksham Arora</title>
-        <link>http://example.org/</link>
+        <link>http://sakshamarora1.github.io/</link>
         <description>Saksham Arora</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sakshamarora1001@gmail.com (Saksham Arora)</managingEditor>
-            <webMaster>sakshamarora1001@gmail.com (Saksham Arora)</webMaster><lastBuildDate>Thu, 14 May 2020 03:15:31 &#43;0530</lastBuildDate><atom:link href="http://example.org/" rel="self" type="application/rss+xml" /><item>
-    <title>My First blog</title>
-    <link>http://example.org/2020/05/blog001/</link>
+            <webMaster>sakshamarora1001@gmail.com (Saksham Arora)</webMaster><lastBuildDate>Mon, 03 Aug 2020 01:09:39 &#43;0530</lastBuildDate><atom:link href="http://sakshamarora1.github.io/" rel="self" type="application/rss+xml" /><item>
+    <title>First blog</title>
+    <link>http://sakshamarora1.github.io/2020/05/blog001/</link>
     <pubDate>Thu, 14 May 2020 03:15:31 &#43;0530</pubDate>
     <author>Author</author>
-    <guid>http://example.org/2020/05/blog001/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="" referrerpolicy="no-referrer">
-            </div>First blog]]></description>
+    <guid>http://sakshamarora1.github.io/2020/05/blog001/</guid>
+    <description><![CDATA[Work in Progress! I have created this website using the hugo static website generator https://gohugo.io/ and is still a work in progress! : D I am currently using the LoveIt theme https://themes.gohugo.io/loveit/ by Dillon
+I will be documenting my GSoC'2020 journey and adding descriptions about my projects in the coming weeks!
+I have also been posting GSoC related blogs on https://blogs.python-gsoc.org/en/sakshamaroras-blog, you can check them out!]]></description>
 </item></channel>
 </rss>
