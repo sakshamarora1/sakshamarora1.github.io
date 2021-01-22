@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>GSoC Final Report - Saksham Arora</title>
+        <meta name="Description" content="GSoC 2020 in PSF - Final Report by Saksham Arora"><meta property="og:title" content="GSoC Final Report" />
+<meta property="og:description" content="GSoC 2020 in PSF - Final Report by Saksham Arora" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://sakshamarora1.github.io/2020/08/gsocfinalreport/" />
+<meta property="article:published_time" content="2020-08-31T16:52:33+05:30" />
+<meta property="article:modified_time" content="2020-08-31T16:52:33+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="GSoC Final Report"/>
+<meta name="twitter:description" content="GSoC 2020 in PSF - Final Report by Saksham Arora"/>
+<meta name="application-name" content="Saksham Arora">
+<meta name="apple-mobile-web-app-title" content="Saksham Arora"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://sakshamarora1.github.io/2020/08/gsocfinalreport/" /><link rel="prev" href="http://sakshamarora1.github.io/2020/05/firstblog/" /><link rel="next" href="http://sakshamarora1.github.io/2020/09/mygsocjourneyandtips/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "GSoC Final Report",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/sakshamarora1.github.io\/2020\/08\/gsocfinalreport\/"
+        },"genre": "posts","wordcount":  1325 ,
+        "url": "http:\/\/sakshamarora1.github.io\/2020\/08\/gsocfinalreport\/","datePublished": "2020-08-31T16:52:33+05:30","dateModified": "2020-08-31T16:52:33+05:30","author": {
+                "@type": "Person",
+                "name": "Saksham Arora"
+            },"description": "GSoC 2020 in PSF - Final Report by Saksham Arora"
+    }
+    </script></head>
+    <body header-desktop="fixed" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Saksham Arora"><img
+        class="lazyload logo"
+        src="/svg/loading/small.min.svg"
+        data-src="https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png"
+        data-srcset="https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png, https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png 2x"
+        data-sizes="auto"
+        alt="Saksham Arora"
+        title="Saksham Arora" />Saksham Arora</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/" title="Home"> Home </a><a class="menu-item" href="/about" title="About"> About </a><a class="menu-item" href="/posts/" title="Blogs"> Blogs </a><a class="menu-item" href="/resume.pdf" title="Resume"> Resume </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Saksham Arora"><img
+        class="lazyload logo"
+        src="/svg/loading/small.min.svg"
+        data-src="https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png"
+        data-srcset="https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png, https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/0/01/Windows_Terminal_Logo_256x256.png 2x"
+        data-sizes="auto"
+        alt="Saksham Arora"
+        title="Saksham Arora" />Saksham Arora</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/" title="Home">Home</a><a class="menu-item" href="/about" title="About">About</a><a class="menu-item" href="/posts/" title="Blogs">Blogs</a><a class="menu-item" href="/resume.pdf" title="Resume">Resume</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><article class="page single"><h1 class="single-title animated flipInX">GSoC Final Report</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://linkedin.com/in/sakshamarora1" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>Saksham Arora</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-08-31>2020-08-31</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 1325 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>7 min&nbsp;</div>
+        </div><div class="content" id="content"><p> </p>
+<p><img
+        class="lazyload"
+        src="/svg/loading/small.min.svg"
+        data-src="https://musescore.org/sites/musescore.org/files/Capture%20d%27e%CC%81cran%202016-03-01%2009.48.11_0.png"
+        data-srcset="https://musescore.org/sites/musescore.org/files/Capture%20d%27e%CC%81cran%202016-03-01%2009.48.11_0.png, https://musescore.org/sites/musescore.org/files/Capture%20d%27e%CC%81cran%202016-03-01%2009.48.11_0.png 1.5x, https://musescore.org/sites/musescore.org/files/Capture%20d%27e%CC%81cran%202016-03-01%2009.48.11_0.png 2x"
+        data-sizes="auto"
+        alt="GSoC 2020"
+        title="GSoC 2020" /></p>
+<h1 id="google-summer-of-code-2020-final-work-submission-report">Google Summer of Code 2020 Final Work Submission Report</h1>
+<ul>
+<li><strong>Name:</strong> Saksham Arora</li>
+<li><strong>Organisation:</strong> Python Software Foundation</li>
+<li><strong>Sub-Organisation:</strong> DFFML - DataFlow Facilitator for Machine Learning</li>
+<li><strong>Project:</strong> <a href="https://summerofcode.withgoogle.com/archive/2020/projects/4875103633932288/" target="_blank" rel="noopener noreffer">Integrating Image Processing into DFFML</a></li>
+<li><strong>Proposal:</strong> <a href="https://blogs.python-gsoc.org/media/proposals/GSoC_2020_Proposal_DFFML_-_PSF.pdf">https://blogs.python-gsoc.org/media/proposals/GSoC_2020_Proposal_DFFML_-_PSF.pdf</a></li>
+</ul>
+<h2 id="aim">Aim</h2>
+<p>Add ways of training and testing machine learning models in DFFML on image datasets and perform image processing and computer vision tasks via DFFML.</p>
+<p>The project is divided into 2 parts:</p>
+<ol>
+<li>Wrapping the image processing libraries namely OpenCV and Scikit-Image.</li>
+<li>High Level Operation Workflow, i.e., Custom Operations which will act as high level operations implementing a predefined flow of OpenCV and Scikit-Image functions.</li>
+</ol>
+<h2 id="modifications-to-the-proposal-and-scope-of-the-project">Modifications to the proposal and scope of the project</h2>
+<p>During the summer, the proposed work was modified to achieve better results. The finalized work done in the project:</p>
+<ol>
+<li>Wrapping important image pre-processing functions as DFFML operations.</li>
+<li>PyTorch based pre-trained Convolutional Networks for image classification.</li>
+<li>Custom Neural Networks for image pre-processing and classification tasks via DFFML.</li>
+</ol>
+<h2 id="executive-summary">Executive Summary</h2>
+<p>The project, <strong>Integrating Image Processing into DFFML</strong> aimed to add various functionalities to DFFML for properly performing image processing tasks such as image classification that would make it easy for anyone to do when using DFFML and get their desired results in a clean and user-friendly way.</p>
+<p>DFFML is a machine learning based project which provides APIs for training and testing datasets using various machine learning frameworks such as scikit-learn, etc; making it easier for anyone to input their datasets to train and test upon no matter the knowledge of the user in programming. Before this project, there was no definite and fast way of training and testing the machine learning models in DFFML on visual data. Most of the machine learning algorithms are very likely to fit very closely to the training data, especially when there isn&rsquo;t enough data to train on. Part of the problem is that visual data is very complex, therefore models tend to have higher dimensions of input and therefore a lot of parameters to fit.</p>
+<p>And hence, there was a need of a less time-consuming and an accurate way of performing image processing tasks via DFFML.</p>
+<p>The project is divided into 2 main parts:</p>
+<ol>
+<li>Adding ways to read image datasets and perform pre-processing operations on them.</li>
+<li>Adding state-of-the-art and accurate machine learning models to perform various image processing tasks such as image classification, object detection, etc.</li>
+</ol>
+<p>The first part of the project takes care of handling image dataset and providing the user with a functionality to load images from one of the most popular formats for storing images, that is, the directory format.
+Before the images are feeded into a model which performs image processing tasks the user wants to implement, the images need to pre-processed to which enhances important features in them and suppresses unuseful features due to the high dimensionality of images. This is where feature extraction techniques come into the picture, to extract important features required for a specific task and disregard any unwilling features that may decrease the accuracy of the model.</p>
+<p>The second part takes care of adding different models that are made to perform tasks specifically a user wants to perform and get the best results and accuracy when the models are trained and tested. The addition of important and popular deep learning architectures makes it suitable for performing better than other machine learning models in difficult tasks depending upon the tasks. The user can use powerful pre-trained models to perform image processing tasks saving a lot of time.</p>
+<p>The user even has the option to create their own custom neural networks to perform different tasks, giving DFFML a versatility in the vision field while not at the cost of the user getting caught up in all the complexities that comes with advanced tasks. DFFML takes care of that for the user which is what DFFML strives to achieve: Ease of performing machine learning tasks.</p>
+<p>Through this project, DFFML has vastly grown in the field of computer vision and image processing, which makes it have a potential for solving real-world computer vision and image processing problems and applications while it keeps growing in the future.</p>
+<h2 id="project-tasks-completed">Project Tasks Completed</h2>
+<ul>
+<li>
+<p>Sources for reading and pre-processing of image datasets</p>
+<p>To enable working with image datasets and pre-process these datasets, the Directory source and DataFlow pre-processing source were added. The Directory source is used to read images stored in a directory format and DataFlow pre-processing source is used to modify the data using DFFML operations and creating a flow of operations to run the data through. The edit command uses DataFlow pre-processing Source to modify records using operations and provides an option to overwrite modified records on old records.</p>
+<p><strong>Related Links:</strong></p>
+<ul>
+<li><a href="https://github.com/intel/dffml/pull/604">https://github.com/intel/dffml/pull/604</a>
+<ul>
+<li>DataFlow pre-processing Source</li>
+</ul>
+</li>
+<li><a href="https://github.com/intel/dffml/pull/824">https://github.com/intel/dffml/pull/824</a>
+<ul>
+<li>Doctestable Example for DataFlow pre-processing Source</li>
+</ul>
+</li>
+<li><a href="https://github.com/intel/dffml/pull/644">https://github.com/intel/dffml/pull/644</a>
+<ul>
+<li>Edit command to edit records present in a source</li>
+<li><a href="https://intel.github.io/dffml/master/cli.html#all">https://intel.github.io/dffml/master/cli.html#all</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/intel/dffml/pull/718">https://github.com/intel/dffml/pull/718</a>
+<ul>
+<li>Directory Source</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Image Processing Operations</p>
+<p>Added DFFML operations that wrap functions from OpenCV for pre-processing images after reading the image dataset from the source provided. The operations are put in a flow through which the image data runs by and is pre-processed before they are feeded to a machine learning model in DFFML for performing various tasks such as image classification!</p>
+<p><strong>Related Links:</strong></p>
+<ul>
+<li><a href="https://github.com/intel/dffml/pull/709">https://github.com/intel/dffml/pull/709</a>
+<ul>
+<li>Added OpenCV functions as DFFML operations</li>
+<li><strong>PyPi:</strong> <a href="https://pypi.org/project/dffml-operations-image/">https://pypi.org/project/dffml-operations-image/</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/intel/dffml/pull/731">https://github.com/intel/dffml/pull/731</a>
+<ul>
+<li>Added more pre-processing functions and support for default values in operations</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Convolutional Neural Networks</p>
+<p>Visual data being very complex and containing high dimensions of features of same type in different orientation can be very hard to classify using classification models such as RandomForestClassifier, KNearestNeighbours, etc. This is where powerful deep learning models come into the picture. Deep learning networks like Convolutional Neural Networks offer great accuracy and versatility for tasks such as image classification, object detections, etc.</p>
+<p>By adding Convolutional Neural Networks to DFFML, it becomes very easy to perform image processing techniques and get great results by using Transfer Learning or creating custom networks.</p>
+<p><strong>Related Links:</strong></p>
+<ul>
+<li><a href="https://github.com/intel/dffml/pull/784">https://github.com/intel/dffml/pull/784</a>
+<ul>
+<li>Transfer learning PyTorch based models with dynamic loading for image classification &amp; add documentations and tests for the same</li>
+<li><strong>PyPi:</strong> <a href="https://pypi.org/project/dffml-model-pytorch/">https://pypi.org/project/dffml-model-pytorch/</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/intel/dffml/pull/777">https://github.com/intel/dffml/pull/777</a>
+<ul>
+<li>Added example usages for classifying flower species using OpenCV and Transfer Learning approach and added tests for the examples</li>
+</ul>
+</li>
+<li><a href="https://github.com/intel/dffml/pull/839">https://github.com/intel/dffml/pull/839</a>
+<ul>
+<li>Custom Neural Networks, custom layer addition support, loss entrypoint classes along with their example usage and tests</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Many other important features that aided the addition and proper functioning of image processing tasks in DFFML are listed below:</p>
+<p><strong>Related Links:</strong></p>
+<ul>
+<li><a href="https://github.com/intel/dffml/pull/708">https://github.com/intel/dffml/pull/708</a>
+<ul>
+<li>Improve String Representation for better viewing of image records</li>
+</ul>
+</li>
+<li><a href="https://github.com/intel/dffml/pull/768">https://github.com/intel/dffml/pull/768</a>
+<ul>
+<li>Added support for loading images from fle formats namely JPEG, PNG and TIFF</li>
+<li><strong>PyPi:</strong> <a href="https://pypi.org/project/dffml-config-image/">https://pypi.org/project/dffml-config-image/</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/intel/dffml/pull/771">https://github.com/intel/dffml/pull/771</a>
+<ul>
+<li>Add ability to add operations while creating a dataflow with different names so as to use same operations for different tasks in a single dataflow</li>
+</ul>
+</li>
+<li><a href="https://github.com/intel/dffml/pull/838">https://github.com/intel/dffml/pull/838</a>
+<ul>
+<li>Ability to load YAML/JSON file formats as dictionaries via DFFML CLI</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Detailed weekly description of tasks and work done can be found in:</p>
+<ul>
+<li><strong>Weekly Blogs</strong>: <a href="https://blogs.python-gsoc.org/en/sakshamaroras-blog/">https://blogs.python-gsoc.org/en/sakshamaroras-blog/</a></li>
+<li><strong>Weekly Sync</strong>: <a href="https://docs.google.com/document/d/16u9Tev3O0CcUDe2nfikHmrO3Xnd4ASJ45myFgQLpvzM/edit">https://docs.google.com/document/d/16u9Tev3O0CcUDe2nfikHmrO3Xnd4ASJ45myFgQLpvzM/edit</a></li>
+<li><strong>DFFML YouTube Channel</strong>: <a href="https://www.youtube.com/channel/UCorEDRWGikwBH3dsJdDK1qA">https://www.youtube.com/channel/UCorEDRWGikwBH3dsJdDK1qA</a></li>
+</ul>
+<h2 id="future-work">Future Work</h2>
+<p>DFFML is a machine learning based project which aligns with my interest in the
+field, so I will be more than happy to stay a part of the community to keep contributing and learning!</p>
+<p>Goals for future contributions:</p>
+<ol>
+<li>Adding more image processing techniques.</li>
+<li>Adding image processing examples via DFFML&rsquo;s PyTorch model plugin such as image colorization.</li>
+<li>Connecting Transfer Learning models with custom Neural Networks to use powerful architectures for different Computer Vision tasks.</li>
+<li>Contribute to DFFML&rsquo;s Web UI.</li>
+</ol>
+<hr>
+<p>This summer was a truly an amazing journey and surely an unforgettable one!</p>
+<p>I would like to thank my mentors <a href="https://github.com/pdxjohnny" target="_blank" rel="noopener noreffer">John Andersen</a> for guiding me and being a very patient &amp; supportive mentor, <a href="https://github.com/yashlamba" target="_blank" rel="noopener noreffer">Yash Lamba</a> for being supportive &amp; understanding and <a href="https://github.com/sudharsana-kjl" target="_blank" rel="noopener noreffer">Sudharsana</a> for being helpful throughout my journey. Their guidance and support is the reason why this project was successful. I have learnt a ton of important things from them.</p>
+<p>I&rsquo;d also like to thank my fellow GSoC students<a href="https://github.com/0dust" target="_blank" rel="noopener noreffer"> Himanshu Tripathi</a> and <a href="https://github.com/aghinsa" target="_blank" rel="noopener noreffer">Aghin Shah Alin</a> for helping me during the summer.</p>
+<p>Thank you to Google and Python Software Foundation for providing this opportunity!</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>The article was updated on 2020-08-31</span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/2020/08/gsocfinalreport/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://sakshamarora1.github.io/2020/08/gsocfinalreport/" data-title="GSoC Final Report" data-via="sakshamarora__"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://sakshamarora1.github.io/2020/08/gsocfinalreport/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://sakshamarora1.github.io/2020/08/gsocfinalreport/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="http://sakshamarora1.github.io/2020/08/gsocfinalreport/" data-title="GSoC Final Report" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Pinterest" data-sharer="pinterest" data-url="http://sakshamarora1.github.io/2020/08/gsocfinalreport/" data-description="GSoC 2020 in PSF - Final Report by Saksham Arora"><i class="fab fa-pinterest fa-fw"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://sakshamarora1.github.io/2020/08/gsocfinalreport/" data-title="GSoC Final Report"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="http://sakshamarora1.github.io/2020/08/gsocfinalreport/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="http://sakshamarora1.github.io/2020/08/gsocfinalreport/" data-title="GSoC Final Report" data-description="GSoC 2020 in PSF - Final Report by Saksham Arora"><i class="fab fa-blogger fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/2020/05/firstblog/" class="prev" rel="prev" title="First blog"><i class="fas fa-angle-left fa-fw"></i>First blog</a>
+            <a href="/2020/09/mygsocjourneyandtips/" class="next" rel="next" title="My GSoC 2020 Journey">My GSoC 2020 Journey<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.74.3">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.7"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">May 2020 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://linkedin.com/in/sakshamarora1" target="_blank">Saksham Arora</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><style>.lg-toolbar .lg-icon::after { color: #999; }</style><script type="text/javascript">
+    window.config = {"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30,"type":"lunr"},"twemoji":true};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/twemoji/twemoji.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

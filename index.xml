@@ -4,12 +4,29 @@
         <link>http://sakshamarora1.github.io/</link>
         <description>Saksham Arora</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>sakshamarora1001@gmail.com (Saksham Arora)</managingEditor>
-            <webMaster>sakshamarora1001@gmail.com (Saksham Arora)</webMaster><lastBuildDate>Mon, 03 Aug 2020 01:09:39 &#43;0530</lastBuildDate><atom:link href="http://sakshamarora1.github.io/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>sakshamarora1001@gmail.com (Saksham Arora)</webMaster><lastBuildDate>Tue, 01 Sep 2020 16:52:33 &#43;0530</lastBuildDate><atom:link href="http://sakshamarora1.github.io/" rel="self" type="application/rss+xml" /><item>
+    <title>My GSoC 2020 Journey</title>
+    <link>http://sakshamarora1.github.io/2020/09/mygsocjourneyandtips/</link>
+    <pubDate>Tue, 01 Sep 2020 16:52:33 &#43;0530</pubDate>
+    <author>Author</author>
+    <guid>http://sakshamarora1.github.io/2020/09/mygsocjourneyandtips/</guid>
+    <description><![CDATA[I have been a student developer under Python Software Foundation for the last 4 months as a part of Google Summer of Code program and have successfully completed the program on 31st August 2020, the last day for this year’s program! So, for the unacquainted — What is Google Summer of Code (GSoC)?
+Well, It is an annual program in which university students all around the globe contribute to open source during their break from school in the summer(starting from April/May and ending in August).]]></description>
+</item><item>
+    <title>GSoC Final Report</title>
+    <link>http://sakshamarora1.github.io/2020/08/gsocfinalreport/</link>
+    <pubDate>Mon, 31 Aug 2020 16:52:33 &#43;0530</pubDate>
+    <author>Author</author>
+    <guid>http://sakshamarora1.github.io/2020/08/gsocfinalreport/</guid>
+    <description><![CDATA[Google Summer of Code 2020 Final Work Submission Report  Name: Saksham Arora Organisation: Python Software Foundation Sub-Organisation: DFFML - DataFlow Facilitator for Machine Learning Project: Integrating Image Processing into DFFML Proposal: https://blogs.python-gsoc.org/media/proposals/GSoC_2020_Proposal_DFFML_-_PSF.pdf  Aim Add ways of training and testing machine learning models in DFFML on image datasets and perform image processing and computer vision tasks via DFFML.
+The project is divided into 2 parts:
+ Wrapping the image processing libraries namely OpenCV and Scikit-Image.]]></description>
+</item><item>
     <title>First blog</title>
-    <link>http://sakshamarora1.github.io/2020/05/blog001/</link>
+    <link>http://sakshamarora1.github.io/2020/05/firstblog/</link>
     <pubDate>Thu, 14 May 2020 03:15:31 &#43;0530</pubDate>
     <author>Author</author>
-    <guid>http://sakshamarora1.github.io/2020/05/blog001/</guid>
+    <guid>http://sakshamarora1.github.io/2020/05/firstblog/</guid>
     <description><![CDATA[Work in Progress! I have created this website using the hugo static website generator https://gohugo.io/ and is still a work in progress! : D I am currently using the LoveIt theme https://themes.gohugo.io/loveit/ by Dillon
 I will be documenting my GSoC'2020 journey and adding descriptions about my projects in the coming weeks!
 I have also been posting GSoC related blogs on https://blogs.python-gsoc.org/en/sakshamaroras-blog, you can check them out!]]></description>
