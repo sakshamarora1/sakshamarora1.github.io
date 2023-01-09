@@ -5,35 +5,37 @@
 
 Hi!
 
-I'm a 4th year Engineering student pursuing Bachelor of Technology in Information Technology from Maharaja Agrasen Institute of Technology, GGSIPU, Delhi, India.
+I am a software developer weaving payment and settlement solutions at Juspay! Currently, I'm broadening my horizons around system design and software architecture.
 
-I'm an aspiring software developer having experience in Python, C++ and Flutter.
-I'm passionate about Artificial Intelligence and try to stay up to date with the latest stuff in the tech community!
+With love for all things tech, I thrive on the thrill of creating innovative solutions that make a positive impact.
 
-I'm a football guy. I love playing and watching football when I'm not programming! Apart from this, I'm into fitness and love to work out. :D
+Nowadays, I'm mostly diving deep into Docker and Virtualization, also taught myself Go on the go (LOL). I also have an interest in Git and the art of version control. It's like a magical spell that keeps projects in harmony.
 
-My main interests are Machine Learning and AI and I try to work on projects that help me understand this field further.
-I'm currently looking for internship oppurtunites in the field of software development and/or machine learning.
+Beyond coding, I'm an avid learner, constantly exploring new technologies and trends. This curiosity fuels my passion for growth and enables me to continually expand my skills!
 
-If you want to collaborate with me, hit me up! I'm always looking for awesome opportunities!
-
-&nbsp;
-
-## Experiences
-
-- **Technical Product Analyst Intern at** at *Juspay Technologies* - Working with the Settlement and Reconciliation Team at Juspay in building a robust product to handle financial data and manage everyday financial operations.
-
-- **Google Summer of Code** with *Python Software Foundation* — Worked as a Student Developer in Intel's Auto-ML project - [DFFML](https://github.com/intel/dffml/).
-
-- **GirlScript Summer of Code** Mentor - [Simulate](https://cod-ed.github.io/simulate), where I mentored student developers in implementing mathematical visualizations and simulations in Flutter.
+When I'm not programming, I'm up for a mind-bending chess match. Challenge me on chess.com [here](https://www.chess.com/member/sakshamarora1001) if you dare!
+Video games like Valorant, Assassin's Creed, and Dishonoured are my go-to virtual adventures :)
 
 &nbsp;
 
-Currently I'm grinding on www.leetcode.com honing my Data Structures and Algorithms skills. I'm also working on a few very interesting projects that I will make sure to document and post on here!
+# Experiences
 
-Sometimes I like to play chess when I don't have anything to do. If you want to play chess with me, you can challenge me on *chess.com* [here](https://www.chess.com/member/sakshamarora1001). I also like playing video games like Valorant, Assassin's Creed and Dishonoured.
+- **Product Engineer - 1** at **Juspay** _**[2022-Present]**_ - Developing new payment and settlement solutions!
 
-You can contact me on : 
+- **Product Engineer Intern** at **Juspay** _**[2021-2022]**_ - Worked with the Settlement and Reconciliation Team.
+
+- **GSoC Mentor** with **Python Software Foundation** _**[2021]**_ — Guided new developers in Intel's Auto-ML project - [DFFML](https://github.com/intel/dffml/).
+
+- **Google Summer of Code** with **Python Software Foundation** _**[2020]**_ — Worked as a Student Developer in Intel's Auto-ML project - [DFFML](https://github.com/intel/dffml/).
+
+- **Mentor** in **GirlScript Summer of Code** _**[2021]**_ - [Simulate](https://cod-ed.github.io/simulate), where I mentored student developers in implementing mathematical visualizations and simulations in Flutter.
+
+[RESUME](../sakshamarora_resume.pdf)
+
+&nbsp;
+
+# Get in Touch with me!
+
  - [Linkedin](https://linkedin.com/in/sakshamarora1)
  - [Email](sakshamarora1001@gmail.com)
 
